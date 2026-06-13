@@ -11,12 +11,12 @@ safira009.tampilkan_matriks(A)
 print("matriks B")
 safira009.tampilkan_matriks(B)
 
-print("Pengurangan Matriks A dan B")
-hasil = safira009.pengurangan_matriks(A, B)
+print("Penjumlahan Matriks A dan B")
+hasil = safira009.penjumlahan_matriks(A, B)
 safira009.tampilkan_matriks(hasil)
 
 print("transpose matriks A")
 hasil = safira009.transpose_matriks(A)
 safira009.tampilkan_matriks(hasil)
 
-video penjelasan tentang module dan fungsi yang dibuat : 
+video penjelasan tentang module dan fungsi yang dibuat : https://youtu.be/rZ_z4uG0qO4
