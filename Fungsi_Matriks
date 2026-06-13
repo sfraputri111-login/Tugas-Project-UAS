@@ -1,0 +1,22 @@
+fungsi nya : 
+
+import safira009
+
+A = safira009.buat_matriks([[1, 2, 4], [5, 6, 7], [8, 9, 10]])
+B = safira009.buat_matriks([[1, 2, 4], [4, 5, 6], [7, 8, 9]])
+
+print("matriks A")
+safira009.tampilkan_matriks(A)
+
+print("matriks B")
+safira009.tampilkan_matriks(B)
+
+print("Pengurangan Matriks A dan B")
+hasil = safira009.pengurangan_matriks(A, B)
+safira009.tampilkan_matriks(hasil)
+
+print("transpose matriks A")
+hasil = safira009.transpose_matriks(A)
+safira009.tampilkan_matriks(hasil)
+
+video penjelasan tentang module dan fungsi yang dibuat : 
