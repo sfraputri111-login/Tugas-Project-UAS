@@ -1,3 +1,37 @@
+fungsi dalam modul: 
+def buat_matriks(data):
+    return data
+
+def tampilkan_matriks(m):
+    for baris in m:
+        print(baris)
+
+def penjumlahan_matriks(m1, m2):
+    hasil = []
+
+    for i in range (len(m1)):
+        baris = []
+        for j in range (len(m1[0])):
+            baris.append(m1[i][j] + m2[i][j])
+
+        hasil.append(baris)
+    
+    return hasil
+
+def transpose_matriks(m):
+    hasil = []
+
+    for i in range(len(m[0])):
+        baris = []
+
+        for j in range(len(m)):
+            baris.append(m[j][i])
+
+        hasil.append(baris)
+        
+    return hasil
+
+
 fungsi nya : 
 
 import safira009
